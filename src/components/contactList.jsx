@@ -3,7 +3,7 @@ import ContactItem from './ContactItem';
  
 function ContactList({ contacts, onDelete }) {
   return (
-    <div className="contact-list">
+    <div>
       {
         contacts.map((contact) => (
           <ContactItem 
